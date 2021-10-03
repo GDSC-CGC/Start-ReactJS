@@ -13,5 +13,5 @@
 
 ## Track Links!
 
-1. [React Js track 1]("./React_js_Track1.md")
-2. [React Js track 2]("./React_js_Track1.md")
+1. [React Js track 1](https://github.com/RohtanshSehgal/Start-ReactJS/blob/main/React_Js_Track1.md)
+2. [React Js track 2](https://github.com/RohtanshSehgal/Start-ReactJS/blob/main/React_Js_Track2.md)
