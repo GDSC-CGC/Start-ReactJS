@@ -11,11 +11,11 @@
 
 ## Organizing Code
 
-You have already been told about initializing Git and making Pull requests. So send a PR containing these folders and they must look like these:
+You have already been told about initializing Git and making Pull requests. So send a PR in the submission folders and they must look like these:
 
-```jsx
+```
 // Your folder in above Github repo should look like this:
-FirstName LastName (Folder)
+submission/<your-rollno>/track1/<submission files>
 ```
 
 # Step 1
