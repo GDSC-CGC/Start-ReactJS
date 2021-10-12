@@ -4,5 +4,6 @@ A simple front end project built using react for the hacktober fest 2021.
 
 ![Hacktoberfest logo](/submissions/1902009/track1/random-restaurant-generator/public/hacktober.svg)
 
-
+<div style = "display:flex;justify-content:center">
 <img src="/submissions/1902009/track1/random-restaurant-generator/public/gdsc-cgc.jpeg" height="200px" />
+</div>  
