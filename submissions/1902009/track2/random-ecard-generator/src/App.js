@@ -33,7 +33,7 @@ function App() {
           </div>
           <div style = {{display:'flex',justifyContent:'space-between',alignItems:'center',marginBottom:'20px'}}>
             <div style = {{display:'flex',justifyContent:'space-between',alignItems:'center',flexDirection:'column',width:'100px'}}>
-            <p style = {{fontWeight:'bold'}}>Count</p>
+            <p style = {{fontWeight:'bold'}}>Country</p>
               <small >{user?.location?.country}</small>
             </div>
             <div style = {{display:'flex',justifyContent:'space-between',alignItems:'center',flexDirection:'column',width:'100px'}}>
