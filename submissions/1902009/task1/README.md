@@ -2,8 +2,3 @@
 
 A simple front end project built using react for the hacktober fest 2021.
 
-![Hacktoberfest logo](/submissions/1902009/track1/public/hacktober.svg)
-
-<div align = "center">
-<img src="/submissions/1902009/track1//public/gdsc-cgc.jpeg" height="200px" />
-</div>
