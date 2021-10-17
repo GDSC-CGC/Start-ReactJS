@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+/* *{
+ margin: 0;
+ padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+    width: 100vh;
+    height: 100vh;
+} */
+
+/* CSS which you need for blurred box */
+/* body{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: top;
+ background-image:url(http://bit.ly/2gPLxZ4);
+ width: 100%;
+ height: 100%;
+ font-family: Arial, Helvetica;
+ letter-spacing: 0.02em;
+  font-weight: 400;
+ -webkit-font-smoothing: antialiased; 
+} */
+
+/* .blurred-box{
+    display: flex;
+  position: relative;
+  width: 300px;
+  height: 400px;
+  top: calc(50% - 175px);
+  left: calc(50% - 125px);
+  background: inherit;
+  border-radius: 2px;
+  overflow: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blurred-box:after{
+ content: '';
+ width: 300px;
+ height: 300px;
+ background: inherit; 
+ position: absolute;
+ left: -25px;
+
+ right: 0;
+ top: -25px;  
+
+ bottom: 0;
+ box-shadow: inset 0 0 0 200px rgba(255,255,255,0.05);
+ filter: blur(10px);
 }
+
+.content{
+    margin: auto;
+}
+
+.profile-pic {
+	border-radius: 48%;
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	position: relative;
+	background-image: url(http://bit.ly/2gPLxZ4);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.blurred-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding: 2rem 3rem;
+	border-radius: 1rem;
+	color: #fff;
+	background-color: #ffffff42;
+	backdrop-filter: blur(4px);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.profile-pic {
+	border-radius: 50%;
 }
